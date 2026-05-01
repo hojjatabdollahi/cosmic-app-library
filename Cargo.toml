@@ -50,8 +50,8 @@ cosmic-app-list-config = { git = "https://github.com/pop-os/cosmic-applets" }
 [profile.release]
 lto = "thin"
 
-# [patch."https://github.com/pop-os/libcosmic/"]
-# libcosmic = { git = "https://github.com/pop-os/libcosmic//" }
-# cosmic-config = { git = "https://github.com/pop-os/libcosmic//" }
+[patch."https://github.com/pop-os/libcosmic/"]
+libcosmic = { git = "https://github.com/hojjatabdollahi/libcosmic", branch = "hojjat/reorderable-flex-row" }
+cosmic-config = { git = "https://github.com/hojjatabdollahi/libcosmic", branch = "hojjat/reorderable-flex-row" }
 # cosmic-config = { path = "../libcosmic/cosmic-config/" }
 # libcosmic = { path = "../libcosmic/" }

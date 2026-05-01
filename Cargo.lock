@@ -1033,7 +1033,7 @@ dependencies = [
 [[package]]
 name = "cosmic-config"
 version = "1.0.0"
-source = "git+https://github.com/pop-os/libcosmic#99c038a66ac721e6af9ca058aa5038ca279d9d0c"
+source = "git+https://github.com/hojjatabdollahi/libcosmic?branch=hojjat%2Freorderable-flex-row#ca1b83a4fd278aa601bb3c25d7ee6a8d4393c47b"
 dependencies = [
  "atomicwrites",
  "cosmic-config-derive",
@@ -1054,7 +1054,7 @@ dependencies = [
 [[package]]
 name = "cosmic-config-derive"
 version = "1.0.0"
-source = "git+https://github.com/pop-os/libcosmic#99c038a66ac721e6af9ca058aa5038ca279d9d0c"
+source = "git+https://github.com/hojjatabdollahi/libcosmic?branch=hojjat%2Freorderable-flex-row#ca1b83a4fd278aa601bb3c25d7ee6a8d4393c47b"
 dependencies = [
  "quote",
  "syn",
@@ -1150,7 +1150,7 @@ dependencies = [
 [[package]]
 name = "cosmic-theme"
 version = "1.0.0"
-source = "git+https://github.com/pop-os/libcosmic#99c038a66ac721e6af9ca058aa5038ca279d9d0c"
+source = "git+https://github.com/hojjatabdollahi/libcosmic?branch=hojjat%2Freorderable-flex-row#ca1b83a4fd278aa601bb3c25d7ee6a8d4393c47b"
 dependencies = [
  "almost",
  "configparser",
@@ -2286,7 +2286,7 @@ dependencies = [
 [[package]]
 name = "iced"
 version = "0.14.0"
-source = "git+https://github.com/pop-os/libcosmic#99c038a66ac721e6af9ca058aa5038ca279d9d0c"
+source = "git+https://github.com/hojjatabdollahi/libcosmic?branch=hojjat%2Freorderable-flex-row#ca1b83a4fd278aa601bb3c25d7ee6a8d4393c47b"
 dependencies = [
  "dnd",
  "iced_accessibility",
@@ -2307,7 +2307,7 @@ dependencies = [
 [[package]]
 name = "iced_accessibility"
 version = "0.1.0"
-source = "git+https://github.com/pop-os/libcosmic#99c038a66ac721e6af9ca058aa5038ca279d9d0c"
+source = "git+https://github.com/hojjatabdollahi/libcosmic?branch=hojjat%2Freorderable-flex-row#ca1b83a4fd278aa601bb3c25d7ee6a8d4393c47b"
 dependencies = [
  "accesskit",
  "accesskit_winit",
@@ -2316,7 +2316,7 @@ dependencies = [
 [[package]]
 name = "iced_core"
 version = "0.14.0"
-source = "git+https://github.com/pop-os/libcosmic#99c038a66ac721e6af9ca058aa5038ca279d9d0c"
+source = "git+https://github.com/hojjatabdollahi/libcosmic?branch=hojjat%2Freorderable-flex-row#ca1b83a4fd278aa601bb3c25d7ee6a8d4393c47b"
 dependencies = [
  "bitflags 2.11.1",
  "bytes",
@@ -2341,7 +2341,7 @@ dependencies = [
 [[package]]
 name = "iced_debug"
 version = "0.14.0"
-source = "git+https://github.com/pop-os/libcosmic#99c038a66ac721e6af9ca058aa5038ca279d9d0c"
+source = "git+https://github.com/hojjatabdollahi/libcosmic?branch=hojjat%2Freorderable-flex-row#ca1b83a4fd278aa601bb3c25d7ee6a8d4393c47b"
 dependencies = [
  "iced_core",
  "iced_futures",
@@ -2351,7 +2351,7 @@ dependencies = [
 [[package]]
 name = "iced_futures"
 version = "0.14.0"
-source = "git+https://github.com/pop-os/libcosmic#99c038a66ac721e6af9ca058aa5038ca279d9d0c"
+source = "git+https://github.com/hojjatabdollahi/libcosmic?branch=hojjat%2Freorderable-flex-row#ca1b83a4fd278aa601bb3c25d7ee6a8d4393c47b"
 dependencies = [
  "futures",
  "iced_core",
@@ -2365,7 +2365,7 @@ dependencies = [
 [[package]]
 name = "iced_graphics"
 version = "0.14.0"
-source = "git+https://github.com/pop-os/libcosmic#99c038a66ac721e6af9ca058aa5038ca279d9d0c"
+source = "git+https://github.com/hojjatabdollahi/libcosmic?branch=hojjat%2Freorderable-flex-row#ca1b83a4fd278aa601bb3c25d7ee6a8d4393c47b"
 dependencies = [
  "bitflags 2.11.1",
  "bytemuck",
@@ -2386,7 +2386,7 @@ dependencies = [
 [[package]]
 name = "iced_program"
 version = "0.14.0"
-source = "git+https://github.com/pop-os/libcosmic#99c038a66ac721e6af9ca058aa5038ca279d9d0c"
+source = "git+https://github.com/hojjatabdollahi/libcosmic?branch=hojjat%2Freorderable-flex-row#ca1b83a4fd278aa601bb3c25d7ee6a8d4393c47b"
 dependencies = [
  "iced_graphics",
  "iced_runtime",
@@ -2395,7 +2395,7 @@ dependencies = [
 [[package]]
 name = "iced_renderer"
 version = "0.14.0"
-source = "git+https://github.com/pop-os/libcosmic#99c038a66ac721e6af9ca058aa5038ca279d9d0c"
+source = "git+https://github.com/hojjatabdollahi/libcosmic?branch=hojjat%2Freorderable-flex-row#ca1b83a4fd278aa601bb3c25d7ee6a8d4393c47b"
 dependencies = [
  "iced_graphics",
  "iced_tiny_skia",
@@ -2407,7 +2407,7 @@ dependencies = [
 [[package]]
 name = "iced_runtime"
 version = "0.14.0"
-source = "git+https://github.com/pop-os/libcosmic#99c038a66ac721e6af9ca058aa5038ca279d9d0c"
+source = "git+https://github.com/hojjatabdollahi/libcosmic?branch=hojjat%2Freorderable-flex-row#ca1b83a4fd278aa601bb3c25d7ee6a8d4393c47b"
 dependencies = [
  "bytes",
  "cosmic-client-toolkit",
@@ -2423,7 +2423,7 @@ dependencies = [
 [[package]]
 name = "iced_tiny_skia"
 version = "0.14.0"
-source = "git+https://github.com/pop-os/libcosmic#99c038a66ac721e6af9ca058aa5038ca279d9d0c"
+source = "git+https://github.com/hojjatabdollahi/libcosmic?branch=hojjat%2Freorderable-flex-row#ca1b83a4fd278aa601bb3c25d7ee6a8d4393c47b"
 dependencies = [
  "bytemuck",
  "cosmic-text",
@@ -2440,7 +2440,7 @@ dependencies = [
 [[package]]
 name = "iced_wgpu"
 version = "0.14.0"
-source = "git+https://github.com/pop-os/libcosmic#99c038a66ac721e6af9ca058aa5038ca279d9d0c"
+source = "git+https://github.com/hojjatabdollahi/libcosmic?branch=hojjat%2Freorderable-flex-row#ca1b83a4fd278aa601bb3c25d7ee6a8d4393c47b"
 dependencies = [
  "as-raw-xcb-connection",
  "bitflags 2.11.1",
@@ -2471,7 +2471,7 @@ dependencies = [
 [[package]]
 name = "iced_widget"
 version = "0.14.2"
-source = "git+https://github.com/pop-os/libcosmic#99c038a66ac721e6af9ca058aa5038ca279d9d0c"
+source = "git+https://github.com/hojjatabdollahi/libcosmic?branch=hojjat%2Freorderable-flex-row#ca1b83a4fd278aa601bb3c25d7ee6a8d4393c47b"
 dependencies = [
  "cosmic-client-toolkit",
  "dnd",
@@ -2490,7 +2490,7 @@ dependencies = [
 [[package]]
 name = "iced_winit"
 version = "0.14.0"
-source = "git+https://github.com/pop-os/libcosmic#99c038a66ac721e6af9ca058aa5038ca279d9d0c"
+source = "git+https://github.com/hojjatabdollahi/libcosmic?branch=hojjat%2Freorderable-flex-row#ca1b83a4fd278aa601bb3c25d7ee6a8d4393c47b"
 dependencies = [
  "cosmic-client-toolkit",
  "cursor-icon",
@@ -2997,7 +2997,7 @@ checksum = "52ff2c0fe9bc6cb6b14a0592c2ff4fa9ceb83eea9db979b0487cd054946a2b8f"
 [[package]]
 name = "libcosmic"
 version = "1.0.0"
-source = "git+https://github.com/pop-os/libcosmic#99c038a66ac721e6af9ca058aa5038ca279d9d0c"
+source = "git+https://github.com/hojjatabdollahi/libcosmic?branch=hojjat%2Freorderable-flex-row#ca1b83a4fd278aa601bb3c25d7ee6a8d4393c47b"
 dependencies = [
  "apply",
  "ashpd 0.12.3",
